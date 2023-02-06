@@ -1,0 +1,33 @@
+:root {
+    --branco: #ffffff;
+    --cinza_claro: #f5f5f5;
+    --preto: #000000;
+    --salmao: #ff0040;
+    --salmao_escuro: #d10034;
+
+    --fonte_logo: 'Fredoka One', cursive;
+    --fonte_texto: 'Arvo', serif;
+}
+
+body {
+    background-color: var(--branco);
+    color: var(--salmao);
+    font-family: var(--fonte_texto);
+    font-size: 24px;
+}
+
+button {
+    background-color: var(--salmao);
+    border: none;
+    border-radius: 8px;
+    color: var(--branco);
+    font-size: 16px;
+    padding: 2px 0 0 1px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: var(--salmao_escuro);
+}

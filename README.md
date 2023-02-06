@@ -7,8 +7,9 @@ Site (ficcional) para assistir filmes
 >Status do projeto: Em desenvolvimento.<
 
 >Tarefas <br>
-[] Criar os arquivos iniciais <br>
-[] Criar a página de index/login <br>
+[X] Criar os arquivos iniciais <br>
+[X] Criar a página de index/login <br>
+[] Cria a página de cadastro <br>
 [] Criar a página de informações da conta <br>
 [] Cria a página de Home <br>
 [] Cria a página de filmes de ação <br>
