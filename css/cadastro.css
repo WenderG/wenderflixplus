@@ -1,0 +1,51 @@
+body {
+    background-image: url(../img/roloDeFilme.jpg);
+}
+
+.logo {
+    font-family: var(--fonte_logo);
+    text-align: center;
+    padding-top: 3rem;
+}
+
+h1 {
+    color: var(--salmao);
+    font-size: 48px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+h2 {
+    padding-bottom: 2rem;
+}
+
+form {
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    text-align: justify;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    background-color: var(--cinza_claro);
+    border-radius: 8px;
+    display: block;
+    margin: 0 0 20px;
+    padding-left: 1em;
+    height: 30px;
+    width: 300px;
+}
+
+.botao {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+
