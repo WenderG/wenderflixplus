@@ -49,12 +49,16 @@ input {
     margin: 2rem 0 0.8rem 0;
 }
 
-a {
+.entrar {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.criar_conta {
     font-size: 16px;
     color: var(--salmao);
 }
 
-a:hover {
-    font-size: 16px;
+.criar_conta:hover {
     color: var(--salmao_escuro);
 }
