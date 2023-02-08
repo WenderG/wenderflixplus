@@ -1,0 +1,9 @@
+header {
+    background-color: var(--salmao);
+    border-bottom: 5px solid var(--salmao_escuro);
+    color: var(--branco);
+}
+
+li {
+    display: inline;
+}
