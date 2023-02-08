@@ -1,0 +1,64 @@
+h1 {
+    color: var(--salmao);
+    font-family: var(--fonte_logo);
+    font-size: 28px;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+
+h2 {
+    font-family: var(--fonte_logo);
+    font-size: 24px;
+    padding: 0 0 1.5rem 1rem;
+}
+
+h3 {
+    font-family: var(--fonte_logo);
+    padding-bottom: 1rem;
+}
+
+.painel {
+    margin: auto;
+    padding-left: 1em;
+    height: 600px;
+    width: 300px;
+}
+
+.cartaz {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.imagem {
+    width: 200px;
+}
+
+.descricao {
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.desc{
+    margin: auto;
+    overflow: auto;
+    text-align: justify;
+    height: 100px;
+    width: 200px;
+}
+
+p {
+    color: var(--preto);
+}
+
+.interacao {
+    display: grid;
+    grid-template-areas: "curtir favoritos";
+}
+
+.like {
+    width: 45px;
+}
+
+.favorito {
+    width: 45px;
+}

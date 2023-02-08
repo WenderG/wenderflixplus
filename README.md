@@ -11,7 +11,7 @@ Site (ficcional) para assistir filmes
 [X] Criar a página de index/login <br>
 [X] Cria a página de cadastro <br>
 [] Criar a página de informações da conta <br>
-[] Cria a página de Home <br>
+[X] Cria a página de Home <br>
 [] Cria a página de filmes de ação <br>
 [] Cria a página de filmes de comédia <br>
 [] Cria a página de filmes de terror <br>

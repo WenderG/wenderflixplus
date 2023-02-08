@@ -1,5 +1,6 @@
 :root {
     --branco: #ffffff;
+    --cinza: #b9b9b9;
     --cinza_claro: #f5f5f5;
     --preto: #000000;
     --salmao: #ff0040;
@@ -11,8 +12,9 @@
 
 body {
     background-color: var(--branco);
+    color: var(--salmao);
     font-family: var(--fonte_texto);
-    font-size: 24px;
+    font-size: 18px;
 }
 
 button {

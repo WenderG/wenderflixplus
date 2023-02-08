@@ -1,0 +1,7 @@
+footer {
+    height: 50rem;
+}
+
+.rodape {
+    background: linear-gradient( to bottom, var(--branco) 30%, var(--salmao), var(--preto));
+}
