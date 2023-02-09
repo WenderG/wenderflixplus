@@ -10,7 +10,7 @@ Site (ficcional) para assistir filmes
 [X] Criar os arquivos iniciais <br>
 [X] Criar a página de index/login <br>
 [X] Cria a página de cadastro <br>
-[] Criar a página de informações da conta <br>
+[X] Criar a página de informações da conta <br>
 [X] Cria a página de Home <br>
 [X] Cria a página de filmes de comédia <br>
 [X] Cria a página de filmes de terror <br>

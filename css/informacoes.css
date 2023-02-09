@@ -1,0 +1,25 @@
+.informacoes {
+    margin-bottom: 26rem;
+}
+
+h1 {
+    margin: 10rem 0 3rem 0;
+}
+
+.foto {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.caixa {
+    width: 300px;
+    margin: auto;
+}
+
+.nome {
+    padding-bottom: 1rem;
+}
+
+.email {
+    padding-bottom: 1rem;
+}

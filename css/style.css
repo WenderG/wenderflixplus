@@ -17,6 +17,13 @@ body {
     font-size: 18px;
 }
 
+h1 {
+    color: var(--salmao);
+    font-family: var(--fonte_logo);
+    font-size: 28px;
+    text-align: center;
+}
+
 button {
     background-color: var(--salmao);
     border: none;
