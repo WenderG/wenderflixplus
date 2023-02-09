@@ -1,15 +1,24 @@
+.logo_corpo {
+    color: var(--salmao);
+    font-family: var(--fonte_logo);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10rem 0 3rem 0;
+    text-align: center;
+}
+
 h1 {
     color: var(--salmao);
     font-family: var(--fonte_logo);
     font-size: 28px;
     text-align: center;
-    margin: 2rem 0 3rem 0;
+    margin: 4rem 0 3rem 0;
 }
 
 h2 {
     font-family: var(--fonte_logo);
     font-size: 24px;
-    padding: 0 0 1.5rem 1rem;
+    padding: 0 0 1.5rem 5%;
 }
 
 h3 {
@@ -36,11 +45,12 @@ h3 {
 .descricao {
     align-items: center;
     padding-bottom: 1rem;
+    height: 150px;
 }
 
 .desc{
     margin: auto;
-    overflow: auto;
+    overflow-y: scroll;
     text-align: justify;
     height: 100px;
     width: 200px;
@@ -56,9 +66,28 @@ p {
 }
 
 .like {
-    width: 45px;
+    width: 30px;
 }
 
 .favorito {
-    width: 45px;
+    width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        padding: 0 0 1.5rem 15%;
+    }
+
+    .painel {
+        width: 400px;
+    }
+
+    .desc{
+        margin: auto;
+        overflow-y: scroll;
+        text-align: justify;
+        height: 100px;
+        width: 400px;
+    }
+    
 }

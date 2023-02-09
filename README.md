@@ -12,11 +12,10 @@ Site (ficcional) para assistir filmes
 [X] Cria a página de cadastro <br>
 [] Criar a página de informações da conta <br>
 [X] Cria a página de Home <br>
-[] Cria a página de filmes de ação <br>
-[] Cria a página de filmes de comédia <br>
-[] Cria a página de filmes de terror <br>
-[] Cria a página de filmes de romance <br>
-[] Cria a página de filmes de animação <br>
-[] Tornar responsivo <br>
+[X] Cria a página de filmes de comédia <br>
+[X] Cria a página de filmes de terror <br>
+[X] Cria a página de filmes de romance <br>
+[X] Cria a página de filmes de animação <br>
+[X] Tornar responsivo <br>
 [] Revisão geral das páginas <br>
 [] Edição final do README

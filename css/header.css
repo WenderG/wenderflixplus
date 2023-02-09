@@ -6,7 +6,9 @@ header {
     font-family: var(--fonte_texto);
     justify-content: space-between;
     padding: 1em 0 1em 0;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .container {
@@ -36,7 +38,6 @@ header {
 .lista_menu {
     background-color: var(--salmao);
     border-bottom-right-radius: 15px;
-    display: none;
     display: none;
     margin-top: 1.4rem;
     position: absolute;
@@ -69,11 +70,66 @@ header {
     font-size: 28px;
 }
 
-.logo {
-    color: var(--branco);
+.perfil {
+    position: absolute;
+    left: 55%;
+}
+
+.usuario {
+    width: 65px;
+}
+
+.logo_mobile {
+    background-color: var(--branco);
+    border-radius: 15px;
+    color: var(--salmao);
     font-family: var(--fonte_logo);
     font-size: 36px;
     font-weight: bold;
     margin-right: 1rem;
+    padding: 8px;
+}
+
+.logo {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .perfil {
+        left: 60%;
+    }
+
+    .logo_mobile {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        color: var(--branco);
+        font-family: var(--fonte_logo);
+        font-size: 36px;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    /* .cabecalho_menu_hamburguer {
+        background-image: none;
+        display: inline;
+        margin-left: 1rem;
+        width: 300px;
+    }
+
+    .lista_menu {
+        border-bottom-right-radius: 15px;
+        display: inline;
+        margin-top: 1.4rem;
+        position: static;
+    } */
+}
+
+@media (min-width:1000px) {
+    .perfil {
+        left: 70%;
+    }
 }
 
