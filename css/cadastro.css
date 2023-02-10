@@ -8,11 +8,6 @@ body {
     padding-top: 3rem;
 }
 
-h1 {
-    color: var(--salmao);
-    font-size: 48px;
-}
-
 .container {
     text-align: center;
     margin-top: 6rem;
@@ -44,9 +39,21 @@ input {
     width: 300px;
 }
 
-.botao {
+input#cadastrar {
+    background-color: var(--salmao);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: auto;
+    padding: 2px 0 0 1px;
     text-align: center;
-    margin: 2rem 0 4rem 0;
+    height: 30px;
+    width: 100px;
+}
+
+.botao {
+    margin-top: 2em;
 }
 
 .enviar {

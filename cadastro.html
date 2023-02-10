@@ -20,22 +20,22 @@
         <section class="container">
             <h2>Cadastre-se!</h2>
 
-            <form>
+            <form id="novaConta">
                 <label for="email">E-mail:</label>
-                <input type="text" class="email" id="email" name="email" placeholder="seuemail@gmail.com" required>
+                <input type="text" class="email" id="email" name="email" placeholder="seuemail@gmail.com">
                 <label for="senha">Senha:</label>
-                <input type="text" class="senha" id="senha" name="senha" placeholder="Sua senha" required>
+                <input type="text" class="senha" id="senha" name="senha" placeholder="Sua senha">
                 <label for="c_senha">Confirme sua senha:</label>
-                <input type="text" class="confirma_senha" id="c_senha" name="c_senha" placeholder="Confirmar senha" required>
+                <input type="text" class="confirma_senha" id="c_senha" name="c_senha" placeholder="Confirmar senha">
                 <label for="telefone">Telefone:</label>
-                <input type="text" class="telefone" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                <input type="text" class="telefone" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
                 <div class="botao">
-                    <button onclick=""><a href="index.html" class="enviar">Enviar</a></button> 
+                    <input type="submit" value="Cadastrar" id="cadastrar">
                 </div>                
             </form>
 
         </section>
     </main>
-    <script src=""></script>
+    <script src="./app/cadastro.js"></script>
 </body>
 </html>
