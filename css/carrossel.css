@@ -1,0 +1,7 @@
+.carrossel {
+    display: flex;
+    margin: auto;
+    overflow-x: scroll;
+    height: autopx;
+    width: auto;
+}
