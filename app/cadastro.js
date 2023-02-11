@@ -1,41 +1,30 @@
 const form = window.document.getElementById('novaConta')
 
 const contasCadastradas = []
-const contas = localStorage.getItem('contas') || []
-
 
 form.addEventListener("submit", (evento) => {
     evento.preventDefault()
 
-    const email = evento.target['email']
-    const senha = evento.target['senha']
-    const c_senha = evento.target['c_senha']
-    const telefone = evento.target['telefone']
+    let nome = window.document.getElementById('nome').value
+    let email = window.document.getElementById('email').value
+    let c_email = window.document.getElementById('c_email').value
+    let senha = window.document.getElementById('senha').value
+    let c_senha = window.document.getElementById('c_senha').value
+    let telefone = window.document.getElementById('telefone').value
 
-    const existe = contas.find(elemento => elemento.email === email.value)
-
-    const conta = {
-        "email": email.value,
-        "senha": senha.value,
-        "c_senha": c_senha.value,
-        "telefone": telefone.value,
+    if(localStorage.hasOwnProperty("contasCadastradas")) {
+        contasCadastradas = JSON.parse(localStorage.getItem("contasCadastradas"))
     }
 
-    if(existe) {
-        conta.id = existe.id
-    } else {
-        conta.id = contasCadastradas.length
-        contasCadastradas.push(conta)
-    }
+    contasCadastradas.push({nome, email, c_email, senha, c_senha, telefone})
 
     localStorage.setItem("contas", JSON.stringify(contasCadastradas))
-    
-    email.value = ""
-    senha.value = ""
-    c_senha.value = ""
-    telefone.value = ""
 
-    // window.location.href = 'index.html'
+    alert("Cadastro realizado com sucesso!")
 
 })
+
+
+
+
 

@@ -13,6 +13,6 @@ Site (ficcional) para assistir filmes
 [X] Criar a página de informações da conta <br>
 [X] Cria a página de Home <br>
 [X] Tornar responsivo <br>
-[] Aplicar o javaScript
+[] Aplicar o javaScript <br>
 [] Revisão geral das páginas <br>
 [] Edição final do README

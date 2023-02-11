@@ -10,7 +10,7 @@ body {
 
 .container {
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 h2 {
@@ -52,8 +52,12 @@ input#cadastrar {
     width: 100px;
 }
 
+.cadastrar {
+    text-decoration: none;
+}
+
 .botao {
-    margin-top: 2em;
+    margin: 2em 0 2rem 0;
 }
 
 .enviar {
