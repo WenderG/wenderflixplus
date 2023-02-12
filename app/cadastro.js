@@ -15,13 +15,20 @@ form.addEventListener("submit", (evento) => {
     if(localStorage.hasOwnProperty("contasCadastradas")) {
         contasCadastradas = JSON.parse(localStorage.getItem("contasCadastradas"))
     }
+    
+    if(email != c_email)
+        alert("Os email estão diferentes!")
+    else if(senha != c_senha)
+        alert("As senhas estão diferentes!")
+    else{
+        contasCadastradas.push({nome, email, c_email, senha, c_senha, telefone})
 
-    contasCadastradas.push({nome, email, c_email, senha, c_senha, telefone})
+        localStorage.setItem("contas", JSON.stringify(contasCadastradas))
 
-    localStorage.setItem("contas", JSON.stringify(contasCadastradas))
-
-    alert("Cadastro realizado com sucesso!")
-
+        alert("Cadastro realizado com sucesso!")
+        window.location.replace('index.html')
+    }
+    
 })
 
 

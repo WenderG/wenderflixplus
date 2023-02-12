@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <title>Wenderflix+</title>
 </head>
-<body class="corpo">
+<body class="corpo" onload="informacoes()">
     <header>
         <div class="container">
             <input type="checkbox" id="menu" class="container_botao_menu">
@@ -43,7 +43,7 @@
         <h1>Sua conta</h1>
         <section class="informacoes">
             <div class="foto">
-                <img class="usuario" src="./img/Usuário.svg" alt="icone de usuário">
+                <img class="usuario" src="./img/icone_usuario.png"  alt="icone de usuário">
             </div>
             <div class="caixa">
                 <div class="nome" id="nome">
@@ -52,8 +52,11 @@
                 <div class="email" id="email">
                     E-mail: 
                 </div>
-                <div class="senha">
+                <div class="senha" id="senha">
                     Senha: 
+                </div>
+                <div class="tel" id="tel">
+                    Telefone: 
                 </div>
             </div>
         </section>
@@ -61,5 +64,6 @@
     <footer class="rodape">
         
     </footer>
+    <script src="./app/informacoes.js"></script>
 </body>
 </html>

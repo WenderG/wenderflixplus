@@ -1,13 +1,31 @@
-function verificacao() {
-    const email_usuario = window.document.getElementById("email_usuario")
-    const senha_usuario = window.document.getElementById("senha_usuario")
+const form = window.document.getElementById('login')
 
-    const dados = localStorage.getItem("contas")
-    const result = JSON.parse(dados)[0].email
+form.addEventListener("submit", (evento) => {
+    evento.preventDefault()
 
-    if(email_usuario == dados.find(element => element = email_usuario))
-        alert("sucesso")
-    else
-        alert("tente de novo")
+    const email_usuario = window.document.getElementById("email_usuario").value
+    const senha_usuario = window.document.getElementById("senha_usuario").value
 
-}
+    const dadosLocalStorage = localStorage.getItem('contas')
+    
+    const dados = JSON.parse(dadosLocalStorage)
+
+    let buscaEncontrada = false
+
+    for(let i = 0; i < dados.length; i++){
+        if(email_usuario === dados[i].email){
+            if(senha_usuario === dados[i].senha){ 
+                buscaEncontrada = true
+                break}
+        }
+            
+    }
+
+    if(buscaEncontrada){
+        alert("Aproveite os filmes!")
+        window.location.replace('home.html')
+    }else{
+        alert("Dados incorretos ou não cadastrados")
+    }
+
+})   
