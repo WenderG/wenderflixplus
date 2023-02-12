@@ -95,6 +95,10 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+    header {
+        height: 38px;
+    } 
+
     .perfil {
         left: 60%;
     }
@@ -111,25 +115,19 @@ header {
         font-weight: bold;
         margin-right: 1rem;
     }
-
-    /* .cabecalho_menu_hamburguer {
-        background-image: none;
-        display: inline;
-        margin-left: 1rem;
-        width: 300px;
-    }
-
-    .lista_menu {
-        border-bottom-right-radius: 15px;
-        display: inline;
-        margin-top: 1.4rem;
-        position: static;
-    } */
 }
 
 @media (min-width:1000px) {
     .perfil {
         left: 70%;
+    }
+
+    .usuario {
+        width: 50px;
+    }
+
+    .logo {
+        font-size: 28px;
     }
 }
 

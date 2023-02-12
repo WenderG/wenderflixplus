@@ -2,6 +2,15 @@
     display: flex;
     margin: auto;
     overflow-x: scroll;
-    height: autopx;
+    height: auto;
     width: auto;
+}
+
+@media  screen and (min-width: 1000px ) {
+    .carrossel {
+        display: block;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 1000px;
+    }
 }
