@@ -4,7 +4,7 @@ Site (ficcional) para assistir filmes
 
 #MOBILE_FIRST
 
->Status do projeto: Em desenvolvimento.
+>Status do projeto: Finalizado.
 
 >Tarefas <br>
 [X] Criar os arquivos iniciais <br>
