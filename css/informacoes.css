@@ -1,9 +1,9 @@
 .informacoes {
-    margin-bottom: 26rem;
+    margin-bottom: 40rem;
 }
 
 h1 {
-    margin: 10rem 0 3rem 0;
+    margin: 15rem 0 3rem 0;
 }
 
 .foto {
@@ -12,8 +12,10 @@ h1 {
 }
 
 .caixa {
-    width: 300px;
+    width: 83,33%;
+    max-width: 700px;
     margin: auto;
+    padding-left: 2em;
 }
 
 .nome {

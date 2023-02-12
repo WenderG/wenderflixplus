@@ -64,3 +64,19 @@ input#cadastrar {
     color: var(--branco);
     text-decoration: none;
 }
+
+footer {
+    height: 350px;
+    margin-top: 15rem;
+}
+
+.rodape {
+    background: linear-gradient( to bottom, var(--salmao), var(--salmao_escuro) 50%);
+    color: var(--branco);
+    text-align: right;
+}
+
+.footer_texto {
+    padding-top: 190px;
+    margin-right: 3%;
+}

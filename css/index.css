@@ -75,3 +75,19 @@ input#entrar {
 .criar_conta:hover {
     color: var(--salmao_escuro);
 }
+
+footer {
+    height: 350px;
+    margin-top: 30rem;
+}
+
+.rodape {
+    background: linear-gradient( to bottom, var(--salmao), var(--salmao_escuro) 50%);
+    color: var(--branco);
+    text-align: right;
+}
+
+.footer_texto {
+    padding-top: 190px;
+    margin-right: 3%;
+}

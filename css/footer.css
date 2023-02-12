@@ -1,7 +1,15 @@
 footer {
-    height: 10rem;
+    height: 300px;
+    margin-top: 3rem;
 }
 
 .rodape {
-    background: linear-gradient( to bottom, var(--branco) 30%, var(--salmao), var(--preto));
+    background: linear-gradient( to bottom, var(--branco) 1%, var(--salmao), var(--salmao_escuro) 50%);
+    color: var(--branco);
+    text-align: right;
+}
+
+.footer_texto {
+    padding-top: 230px;
+    margin-right: 3%;
 }
